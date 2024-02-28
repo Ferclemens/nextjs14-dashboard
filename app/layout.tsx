@@ -1,4 +1,4 @@
-import { montserrat } from "./ui/invoices/fonts";
+import { inter } from "./ui/fonts";
 import '@/app/ui/global.css'
 
 export default function RootLayout({
@@ -8,7 +8,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} antialiased`}>
+      <body className={`${inter.className} antialiased`}>
         {children}
       </body>
     </html>
