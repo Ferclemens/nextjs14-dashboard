@@ -1,5 +1,3 @@
-export default function Customers() {
-  return (
-    <p>Customers Page</p>
- )
+export default function Invoices() {
+  return <p>Customers Page</p>;
 }
